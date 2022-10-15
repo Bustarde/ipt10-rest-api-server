@@ -17,6 +17,7 @@ class ProductController extends Controller
         ]);
     }
 
+
     public function getSingleProduct($id)
     {
         $product = Product::find($id);
